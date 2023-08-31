@@ -1,0 +1,9 @@
+// Get all "Add to Cart" buttons
+const addToCartButtons = document.querySelectorAll('.add-to-cart');
+
+// Add event listeners to each button
+addToCartButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        alert('Item added to cart');
+    });
+});
